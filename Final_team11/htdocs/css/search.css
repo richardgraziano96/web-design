@@ -1,0 +1,34 @@
+/**
+ *  home.css
+ */
+
+body {
+
+    background-color:rgb(39, 39, 39);
+}
+
+/* New post container styling */
+#new-post-container {
+
+    color: white;
+    background-color: rgb(29, 29, 29);
+    z-index: 4;
+}
+#new-post {
+
+    position: fixed;
+    width: 75%;
+    height: auto;
+}
+#new-post button {
+
+    cursor: pointer;
+    margin-top: 2%;
+    padding: 20px;
+}
+
+/* Specific main container styling */
+#main-container {
+
+    height: 400vh;
+}

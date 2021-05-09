@@ -1,0 +1,148 @@
+/**
+ *  home.css
+ */
+
+body {
+
+    background-color:rgb(39, 39, 39);
+}
+
+/* New post button styling */
+#new-post-button-container {
+
+    min-width: 600px;
+    max-height: auto;
+    width: 50%;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color:rgba(70, 70, 70, 0.97);
+}
+#new-post-button {
+
+    height: 100%;
+    padding-bottom: 4px;
+}
+#new-post-button:hover {
+
+    background-color:rgba(60, 60, 60);
+}
+#new-post-button-image {
+
+    width: 16px;
+    height: 16px;
+}
+
+/* New post container styling */
+#new-post-container {
+
+    color: white;
+    background-color: rgb(29, 29, 29);
+    width: 45%;
+    height: 30vh;
+    z-index: 4;
+}
+#new-post {
+
+    position: fixed;
+    width: 80%;
+    height: 90%;
+}
+#new-post h3 {
+
+    text-align: center;
+    margin-bottom: 2vh;
+}
+#new-post hr {
+
+    margin-bottom: 5vh;
+    background-color: rgba(128, 128, 128, 0.514);
+}
+#new-post-user-image-container {
+
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+#new-post-user-image {
+
+    width: 70px;
+    height: 70px;
+}
+#text-post-text-area {
+
+    margin-top: 5vh;
+    min-width: 400px;
+    padding: 10px;
+    width: 50vw;
+    height: 150px;
+    resize: none;
+    border-radius: 12px;
+}
+textarea:focus {
+
+    border: none;
+    outline: none;
+}
+#media-post-text-area {
+
+    margin-top: 5vh;
+    min-width: 400px;
+    padding: 10px;
+    padding-top: 2px;
+    width: 50vw;
+    height: 30px;
+    resize: none;
+    border-radius: 12px;
+}
+#media-post input {
+
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 7%;
+}
+.add-post-button {
+
+    cursor: pointer;
+    width: 80px;
+    height: auto;
+    margin-top: 2%;
+    padding: 6px;
+    border-radius: 35px;
+    color: rgba(255, 255, 255, 0.733);
+    background-color: rgb(172, 32, 32);
+}
+.add-post-button:hover {
+
+    background-color: rgb(143, 19, 19);
+}
+
+.change-post-type-button {
+
+    float: right;
+    width: 40px;
+    height: auto;
+    margin-top: 2%;
+    padding: 6px;
+    padding-bottom: 9px;
+    border-radius: 35px;
+    background-color: rgba(160, 160, 160, 0.25);
+}
+.change-post-type-button:hover {
+
+    background-color: rgba(119, 119, 119, 0.25);
+}
+
+
+/* Specific main container styling */
+#main-container {
+
+    height: auto;
+}
+
+.form-changeable {
+
+    position: absolute;
+}

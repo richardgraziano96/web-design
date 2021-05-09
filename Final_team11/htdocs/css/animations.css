@@ -1,0 +1,156 @@
+/**
+ *  animations.css
+ */
+
+@keyframes fadeSizeIn {
+
+    0% {
+        opacity: 0;
+        transform: scale(.9);
+	}
+	100% {
+        opacity: 1;
+        transform: scale(1);
+	}
+}
+@keyframes fadeIn {
+
+    0% {
+        opacity: 0;
+	}
+	100% {
+        opacity: 1;
+	}
+}
+@keyframes fadeOut {
+
+    0% {
+		opacity: 1;
+	}
+	100% {
+        opacity: 0;
+	}
+}
+@keyframes fadeBackgroundIn {
+
+    0% {
+		background-color: transparent;
+	}
+	100% {
+		background-color: rgba(0, 0, 0, 0.95);
+	}
+}
+@keyframes fadeBackgroundOut {
+
+    0% {
+        background-color: rgba(0, 0, 0, 0.95);
+    }
+	100% {
+        background-color: transparent;
+	}
+}
+@keyframes blur {
+
+    0% {
+        filter: blur(0px);
+    }
+	100% {
+        filter: blur(1px);
+	}
+}
+@keyframes blurDeep {
+
+    0% {
+        filter: blur(0px);
+    }
+	100% {
+        filter: blur(8px);
+	}
+}
+
+@keyframes bubble {
+
+    0% {
+
+        width: 22px;
+        height: 21px;
+    }
+    17% {
+
+        width: 24px;
+        height: 23px;
+    }
+    33% {
+
+        width: 18px;
+        height: 17px;
+    }
+    50% {
+
+        width: 21px;
+        height: 20px;
+    }
+    67% {
+
+        width: 18px;
+        height: 17px;
+    }
+    83% {
+
+        width: 19px;
+        height: 18px;
+    }
+	100% {
+
+        width: 18px;
+        height: 17px;
+	}
+}
+
+
+.set {
+
+    animation-name: bubble;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+}
+
+.transition-in-1 {
+
+    animation-name: fadeSizeIn;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+    animation-duration: .5s;
+    animation-delay: 2.25s;
+    animation-fill-mode: backwards;
+}
+.transition-in-2 {
+
+    animation-name: fadeIn;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+    animation-duration: .8s;
+    animation-delay: 1.5s;
+    animation-fill-mode: backwards;
+}
+.transition-in-3 {
+
+    animation-name: fadeIn;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+    animation-duration: .75s;
+    animation-delay: 2.5s;
+    animation-fill-mode: backwards;
+}
+
+.delay-blur-deep {
+
+    animation-name: blurDeep;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+    animation-duration: .8s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}

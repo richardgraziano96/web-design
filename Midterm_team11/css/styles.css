@@ -1,0 +1,187 @@
+body {
+
+    background-image: url(images/background/background.png);
+    background-color: #cccccc;
+    width: 100vw;
+    margin: auto; padding: auto;
+}
+
+ul li{
+
+    display: inline;
+}
+
+a:link {
+
+    text-decoration: none;
+    font-weight: none;
+    color: rgb(0, 0, 0);
+}
+
+button {
+
+    cursor: pointer;
+    margin: auto; padding: auto;
+    border: none;
+    background-color: inherit;
+}
+
+#brand {
+
+    margin: 0; padding: 2px; padding-bottom: 4px;
+    width: 100vw;
+    text-align: center;
+    box-shadow: 0px 2px 20px 2px #24242475;
+}
+
+#brand-button {
+
+    margin: 0; padding: 5px;
+    width: auto; height: auto;
+    border: none;
+    background-color: inherit;
+}
+
+#brand-image {
+
+    margin: 0; padding: 0;
+    width: auto; height: auto;
+    float: left;
+}
+#brand-image img {
+
+    margin: 0; padding: 0;
+    width: 75px; height: auto;
+}
+
+#brand-text {
+
+    margin: 0; padding: 0;
+    width: auto; height: auto;
+    float: right;
+}
+#brand-text p {
+
+    margin: 0; padding: 0;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    text-decoration: underline;
+    color: rgb(209, 209, 209);
+    text-align: center;
+}
+
+#brand-sub-text {
+
+    margin: 0; padding: 0;
+    width: auto; height: auto;
+    clear: both;
+}
+#brand-sub-text p {
+
+    margin: 0; padding: 0;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 75%;
+    font-style: oblique;
+    color: rgb(209, 209, 209);
+    text-align: center;
+}
+
+#quick-links {
+
+    margin: 0; padding: 4px;
+    width: 100vw;
+    text-align: center;
+}
+#quick-links ul {
+
+    display: inline;
+}
+#quick-links li {
+
+    padding: 2vw;
+}
+#quick-links button {
+
+    color: rgb(209, 209, 209);
+}
+
+nav {
+
+    margin: 0; padding: 0;
+    width: 100vw;
+    box-shadow: 0px 2px 20px 2px #24242475;
+    background-color: rgb(49, 49, 49);
+}
+
+#jumbotron p {
+
+    margin: 2%;
+    margin-left: 10vw; margin-right: 10vw;
+}
+
+#footer {
+
+    clear: both;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+#footer h6 {
+
+    font-size: 13px;
+}
+
+#main-text {
+
+    margin: 3%;
+}
+#main-text h1 {
+
+    margin-bottom: 2%;
+}
+
+.title-middle {
+
+    text-align: center;
+}
+
+#next-text {
+
+    margin: 3%;
+}
+
+td {
+
+    padding-top: 1%; padding-bottom: 2%; padding-right: 2%;
+}
+
+#richard {
+
+    width: 45%; height: auto;
+    padding: 2%;
+    float: left;
+    text-align: center;
+}
+#richard img {
+
+    width: 25%; height: auto;
+    margin: 4%;
+}
+
+#josiah {
+
+    width: 45%; height: auto;
+    padding: 2%;
+    float: right;
+    text-align: center;
+}
+#josiah img {
+
+    width: 45%; height: auto;
+    margin: 4%;
+}
+
+#cont {
+
+    padding-top: 2%;
+}
