@@ -1,0 +1,146 @@
+
+<html>
+
+<head>
+    <title>Art Store Registration</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="firstbar">
+        <nav>
+            <a href="#" name="My Account">My Account</a>
+            <a href="#" name="Wish List">Wish List</a>
+            <a href="#" name="Shopping Cart">Shopping Cart</a>
+            <a href="#" name="Checkout">Checkout</a>
+        </nav>
+    </div>
+    <h1 style="font-family:arial">Art Store</h1>
+    <div id="secondbar">
+        <nav>
+            <a href="pageOne.html" name="Home">Home</a>
+            <a href="#" name="About Us">About Us</a>
+            <a href="#" name="Art Works">Art Works</a>
+            <a href="#" name="Artists">Artists</a>
+        </nav>
+    </div>
+    <div id="maintext">
+        <h1>Customer Registration</h1>
+        <div id="form">
+            <form action="http://www.randyconnolly.com/tests/process.php">
+                <h2>1. User Info</h2>
+                <table>
+                    <tr>
+                        <td>
+                            First Name<br />
+                            <input type="text" name="first" />
+                        </td>
+                        <td>
+                            Last Name<br />
+                            <input type="text" name="last" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            Email<br />
+                            <input type="email" name="email" placeholder="format for email is xxx@yyy.zzz" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Password<br />
+                            <input type="password" name="pass1" placeholder="at least 8 characters"/>
+                        </td>
+                        <td>
+                            Password Repeat<br />
+                            <input type="password" name="pass2" placeholder="at least 8 characters"/>
+                        </td>
+                    </tr>
+                </table>
+                <h2>2. Location</h2>
+                <table>
+                    <tr>
+                        <td colspan="3">
+                            Address<br />
+                            <input type="text" name="address" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            City<br />
+                            <input type="text" name="city" />
+                        </td>
+                        <td>
+                            State<br />
+                            <input type="text" name="state" />
+                        </td>
+                        <td>
+                            Zip<br />
+                            <input type="text" name="zip" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Phone<br />
+                            <input type="text" name="phone" placeholder="NNN-NNN-NNNN"/>
+
+                        </td>
+                        <td>
+                            Country<br />
+                            <select name="country">
+                                <option>Canada</option>
+                                <option>United States</option>
+                                <option>Argentina</option>
+                                <option>Cuba</option>
+                                <option>Brazil</option>
+                                <option>Austria</option>
+                                <option>Romania</option>
+				                        <option>Italy</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Continent<br />
+                            <input type="radio" name="continent" value="North America">North America<br />
+                            <input type="radio" name="continent" value="Europe">Europe<br />
+                            <input type="radio" name="continent" value="South America">South America<br />
+                        </td>
+                    </tr>
+                </table>
+                <h2>3. Personal Details</h2>
+                <table>
+                    <tr>
+                        <td>
+                            Birthday<br />
+                            <input type="date" name="birthday" />
+                        </td>
+                        <td>
+                            Favorite Color<br />
+                            <input type="color" name="favorite" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            Interest in Art<br />
+                            Minimal<input type="range" name="interest" min="0" max="10" />Love It!
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="accept" value="yes">I agree to the <a href="#">Terms of the Site</a></td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit" name="submit">
+                            <img src="images/button_ok.png" />
+                            Sign Me Up
+                            </button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <h4>All images are copyright to their owners. This is just a hypthetical site @ 2014 Copyright Art store</h4>
+    </div>
+</body>
+</html>

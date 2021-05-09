@@ -1,0 +1,154 @@
+body{
+    background-image: url(images/stucco/stucco.png);
+    margin-left:15%;
+    margin-right:15%;
+}
+body h1{
+    font-size: 3em;
+}
+#firstbar{
+    background-color: black;
+    text-align:right;
+    padding: 15px;
+    width:100%
+   
+}
+#firstbar nav a{
+    color: gray;
+    font-weight:700;
+    font-size:1em;
+    padding: 3px 10px;
+    text-decoration:none;
+
+}
+#firstbar nav a:hover{
+    background-color: #66CCFF;
+}
+#secondbar{
+    background-color: white;
+    margin-bottom:20px;
+    padding-top:12px;
+    padding-bottom:12px;
+}
+#secondbar nav a{
+    color: gray;
+    font-weight:700;
+    font-size: 1.1em;
+    padding: 3px 20px;
+    text-decoration:none;
+}
+#secondbar nav a:hover{
+    background-color:#66CCFF;
+}
+#maintext{
+    background-color:white;
+    padding:10px;
+    
+}
+#butn{
+    border:1px solid #E6E6E8;
+    padding-left:5px;
+
+}
+#butn input[type="button"]{
+    padding:8px 40px ;
+    margin: 10px 15px;
+    font-size:1.1em;
+    color:blue;
+    font-weight:700;
+}
+#maintext #mainpic{
+    float:left;
+}
+#maintext h1{
+    font-size:2em;}
+#maintext #mainpic img{
+    height:450px;
+    width:300px;
+}
+#maintext #cont{
+  padding-left:30px;
+  margin-left:300px;
+
+}
+#maintext #cont h4{
+    color: red;
+}
+#maintext #cont #table th{
+    text-align:left;
+}
+#maintext #cont p{
+    font-size:1.1em;
+}
+
+#down {
+    width:100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: flex-start;
+    -ms-align-content: flex-start;
+    align-content: flex-start;
+}
+#down #text{
+    border-bottom: 1px solid #E6E6E8;
+    width:100%;
+    margin-bottom:10px;
+}
+#down .pict img{
+    
+    padding: 10px;
+    margin: 18px;
+}
+#down .pict{
+    border: 1px solid #E6E6E6; 
+    padding: 0 20px;
+
+}
+#down .pict a{
+    width: 100%;
+    padding-bottom:7px;
+}
+.smlimg{
+    width:100%;
+}
+.pict .smlbutn{
+    width:100%;
+    padding: 25px;
+
+}
+#footer{
+    background-color:black;
+    text-align:center;
+    color:gray;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top: 15px;
+}
+#footer h4{
+    margin:5px;
+}
+#form h2{
+    font-size:1.3em;
+    border-bottom: 1px solid gray;
+}
+#form td{
+    padding: 10px 20px;
+    font-weight:700;
+}
+#form td input[type="email"]{
+    width:100%;
+}
+#form td input[type="text"]{
+    width:100%;
+}
+#form td input[type="range"]{
+    width:60%;
+}
+
+
+#form td button{
+    background-color:#B0D7FF;
+}
